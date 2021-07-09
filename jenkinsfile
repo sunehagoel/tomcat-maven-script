@@ -3,7 +3,7 @@ node("buildserver") {
     def remote = [:]
     remote.name = 'deploy'
     remote.host = '54.237.68.249'
-    remote.user = 'centos'
+    remote.user = 'root'
     remote.password = 'Rnstech@123'
     remote.allowAnyHosts = true
 
